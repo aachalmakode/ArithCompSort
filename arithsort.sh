@@ -4,6 +4,6 @@ echo "Enter 3 numbers"
 
 read a
 read b
-read 
+read c
 result1=$(( $a + $b * $c ))
 echo $result1

@@ -34,3 +34,6 @@ echo ${arr[@]}
 
 echo "Array in descending order"
 printf "%d\n" "${arr[@]}" | sort -nr
+
+echo "Array in ascending order"
+printf "%d\n" "${arr[@]}" | sort -n
